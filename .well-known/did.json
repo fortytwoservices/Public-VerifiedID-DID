@@ -1,9 +1,9 @@
 {
-  "id": "did:web:viwweb.z1.web.core.windows.net",
+  "id": "did:web:did.fortytwo.io",
   "@context": [
     "https://www.w3.org/ns/did/v1",
     {
-      "@base": "did:web:viwweb.z1.web.core.windows.net"
+      "@base": "did:web:did.fortytwo.io"
     }
   ],
   "service": [
@@ -12,7 +12,7 @@
       "type": "LinkedDomains",
       "serviceEndpoint": {
         "origins": [
-          "https://viwweb.z1.web.core.windows.net/"
+          "https://did.fortytwo.io/"
         ]
       }
     },
@@ -21,28 +21,28 @@
       "type": "IdentityHub",
       "serviceEndpoint": {
         "instances": [
-          "https://hub.did.msidentity.com/v1.0/01b1d965-11a1-47e0-9e26-9b8fe7c1918a"
+          "https://hub.did.msidentity.com/v1.0/ebad9241-2387-4155-8952-c8d8718bf80c"
         ]
       }
     }
   ],
   "verificationMethod": [
     {
-      "id": "#cf0ec20e2db84818b087005f61100579vcSigningKey-c165d",
-      "controller": "did:web:viwweb.z1.web.core.windows.net",
+      "id": "#01b96ef208a249a399f037a404a5aadevcSigningKey-a5520",
+      "controller": "did:web:did.fortytwo.io",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "crv": "P-256",
         "kty": "EC",
-        "x": "Ckm3k3UhJTmmsYfXqIlKpktGCsw1x37ubIPPcN_I8YM",
-        "y": "kIXdKnkaJRzZo_DUgtgcfWZfWn5b5jJhszL10O4DFmo"
+        "x": "MVlBYAX7OrxqJgH7DA0Fq86VE8S67CXf6myD9FfJfUU",
+        "y": "dK_0nLeik47VnVkL6O9RJ6z8P4D3vckcEtW2aGrQJFY"
       }
     }
   ],
   "authentication": [
-    "#cf0ec20e2db84818b087005f61100579vcSigningKey-c165d"
+    "#01b96ef208a249a399f037a404a5aadevcSigningKey-a5520"
   ],
   "assertionMethod": [
-    "#cf0ec20e2db84818b087005f61100579vcSigningKey-c165d"
+    "#01b96ef208a249a399f037a404a5aadevcSigningKey-a5520"
   ]
 }
