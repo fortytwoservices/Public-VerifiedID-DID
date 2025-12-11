@@ -28,21 +28,21 @@
   ],
   "verificationMethod": [
     {
-      "id": "#d14f5252cb75464f93cefd8b1143acd4vcSigningKey-d3c33",
+      "id": "#67767675c2fd4b63910a4e80e4d11cd7vcSigningKey-72f7c",
       "controller": "did:web:did.fortytwo.io",
       "type": "JsonWebKey2020",
       "publicKeyJwk": {
         "crv": "P-256",
         "kty": "EC",
-        "x": "KDvpU_eEh48pV00udVqaMjaVGi6QBq2LfR8ZTOKCZvU",
-        "y": "nPHJox9g8FyHj5SVazFXgHUsBMVdFJ1ZePaB_PfyXkM"
+        "x": "T_XRGwgDbPyYVVAZjCN0KdXPrXqb3uNmBFy-LcPF-GM",
+        "y": "e1RI9T1mRmOFFrUWdnpZVNoBuWWDrnc_sQxP607Sr8g"
       }
     }
   ],
   "authentication": [
-    "#d14f5252cb75464f93cefd8b1143acd4vcSigningKey-d3c33"
+    "#67767675c2fd4b63910a4e80e4d11cd7vcSigningKey-72f7c"
   ],
   "assertionMethod": [
-    "#d14f5252cb75464f93cefd8b1143acd4vcSigningKey-d3c33"
+    "#67767675c2fd4b63910a4e80e4d11cd7vcSigningKey-72f7c"
   ]
 }
